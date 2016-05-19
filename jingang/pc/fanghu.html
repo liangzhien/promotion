@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>吉利汽车</title>
+<link rel="stylesheet" href="../css/swiper.css" />
+<script type="text/javascript" src="../js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="../js/swiper.min.js"></script>
+<style>
+*{
+	padding:0;
+	margin:0;
+	}
+</style>
+</head>
+
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+       
+        <div class="swiper-slide"><img src="../images/fanghu_img2.jpg" width="100%"/></div>
+        <div class="swiper-slide"><img src="../images/fanghu_img3.jpg" width="100%"/></div>
+        <div class="swiper-slide"><img src="../images/fanghu_img4.jpg" width="100%"/></div>
+		<div class="swiper-slide"><img src="../images/fanghu_img5.jpg" width="100%"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next" style="background-image:url(../images/right.png)"></div>
+    <div class="swiper-button-prev" style="background-image:url(../images/left.png)"></div>
+ </div>
+<script>
+var swiperV = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+		loop : true,
+		nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+    });
+</script>       
+</body>
+</html>

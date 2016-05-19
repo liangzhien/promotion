@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>吉利汽车</title>
+<link rel="stylesheet" href="../css/mobile_swiper.css" />
+<script type="text/javascript" src="../js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="../js/swiper.min.js"></script>
+<style>
+*{
+	padding:0;
+	margin:0;
+	}
+.swiper-container{ width:750px;}
+</style>
+</head>
+
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/sheji_img1.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img2.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img3.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img4.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img5.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img6.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img7.jpg" /></div>
+        <div class="swiper-slide"><img src="img/sheji_img8.jpg" /></div>
+        
+        <div class="swiper-slide"><img src="img/sheji_img10.jpg" /></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next" style="background-image:url(img/right.png)"></div>
+    <div class="swiper-button-prev" style="background-image:url(img/left.png)"></div>
+ </div>
+<script>
+var swiperV = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+		loop : true,
+		nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+    });
+</script>       
+</body>
+</html>
