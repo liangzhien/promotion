@@ -47,7 +47,28 @@ $(document).ready(function() {
 <img class="yuyue_btn" src="img/yuyue.png" onclick="_smq.push(['custom','预约试驾','立即预约']);"/>
 <img class="close_nav hide" src="img/close_nav.png"  />
 	<div class="index" id="p1">
-    	<img src="img/index.jpg" />
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+			    <img src="img/index.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+			    <img src="img/en/kv.jpg" />
+	        </div>
+	    </div>
+	    <div class="swiper-pagination" style="left: 46%;"></div>
+
+	 </div>
+	<script>
+	var swiperV2 = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        autoplay : 8000,
+			loop : true
+	
+	    });
+	</script>  		
+    	
         <img class="nav_img" src="img/top.png" />
     </div>
 	<div class="guanche" id="p2">

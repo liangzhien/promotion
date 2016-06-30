@@ -317,7 +317,7 @@ if($(window).width()<=1400){
 		$(".du").css("left","6%");
 		$(".chetext ").css("left","5%");
 		$(".liuzi_text").css("top","55%");
-		$(".bigbox").css("width",'100%');
+//		$(".bigbox").css("width",'100%');
 		$(".zixun_text ul li").css("line-height","38px");
 }
 if($(window).width()<=1200){
